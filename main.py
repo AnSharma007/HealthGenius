@@ -98,7 +98,7 @@ def check_match(value, items):
 #     return recommended_df
 
 
-# api_key="AIzaSyCIVgLu-1lfBHFqaHXGhzxEDmq3hFrU4bw"
+# api_key="your api key"
 # llm = GooglePalm(google_api_key=api_key,temprature=0.6)
 
 
@@ -439,7 +439,7 @@ def medicine_prediction():
 
 # @app.route('/exercise_recomendation', methods=['POST'])
 # def exercise_recomendation():
-#     api_key="AIzaSyCIVgLu-1lfBHFqaHXGhzxEDmq3hFrU4bw"
+#     api_key="your api key"
 #     llm = GooglePalm(google_api_key=api_key,temprature=0.6)
 #     if request.method == 'POST':
 #         age = request.json.get('age')
@@ -594,7 +594,7 @@ from langchain_community.llms import GooglePalm
 @app.route('/policy_recomendation', methods=['POST'])
 def policy_recomendation():
 
-    api_key = "AIzaSyCIVgLu-1lfBHFqaHXGhzxEDmq3hFrU4bw"
+    api_key = "your api key"
     temperature = 0.6
     llm = GooglePalm(google_api_key=api_key, temperature=temperature)
 
@@ -675,7 +675,7 @@ def policy_recomendation():
 @app.route('/mental_bot', methods=['POST'])
 def mental_bot():
 
-    api_key = "AIzaSyCIVgLu-1lfBHFqaHXGhzxEDmq3hFrU4bw"
+    api_key = "your api key"
     temperature = 0.6
     llm = GooglePalm(google_api_key=api_key, temperature=temperature)
 
@@ -704,14 +704,14 @@ def mental_bot():
 
 # vectordb = FAISS.from_documents(documents=data , embedding=instructor_embeddings)
 
-# # api_key="AIzaSyCIVgLu-1lfBHFqaHXGhzxEDmq3hFrU4bw"
+# # api_key="your api key"
 # # temprature = 0.6
 # # llm = GooglePalm(google_api_key=api_key,temprature=temprature)
 
 
 # @app.route('/chat_bot', methods=['POST'])
 # def chat_bot():
-#     api_key="AIzaSyCIVgLu-1lfBHFqaHXGhzxEDmq3hFrU4bw"
+#     api_key="your api key"
 #     temprature = 0.6
 #     llm = GooglePalm(google_api_key=api_key,temprature=temprature)
 #     # loader = CSVLoader(file_path='Book1.csv')
@@ -771,7 +771,7 @@ from langchain_community.embeddings import HuggingFaceInstructEmbeddings
 
 @app.route('/chat_bot', methods=['POST'])
 def chat_bot():
-    api_key="AIzaSyA48fLPNa9NbsvGcY8PNB3YLk68luI5qPc"
+    api_key="your api key"
     temprature = 0.6
     llm = GooglePalm(google_api_key=api_key,temprature=temprature)
 
